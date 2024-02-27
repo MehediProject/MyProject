@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.Runner" time="25.184" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Api\workspace\a_product_controller\target\test-classes;C:\Api\workspace\a_product_controller\target\classes;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Microtecj NA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Microtecj NA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Microtecj NA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Microtecj NA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Microtecj NA\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Microtecj NA\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Microtecj NA\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Microtecj NA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Microtecj NA\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Microtecj NA\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Microtecj NA\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Microtecj NA\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Microtecj NA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Microtecj NA\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Microtecj NA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-cucumber5-jvm\2.14.0\allure-cucumber5-jvm-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Microtecj NA\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Microtecj NA\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Microtecj NA\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-junit4\2.14.0\allure-junit4-2.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Microtecj NA\AppData\Local\Temp\surefire14315236717815861102\surefirebooter5545745720995469387.jar C:\Users\Microtecj NA\AppData\Local\Temp\surefire14315236717815861102 2023-03-23T04-34-18_652-jvmRun1 surefire4803653794229532203tmp surefire_03096598101861153695tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Api\workspace\a_product_controller\target\test-classes;C:\Api\workspace\a_product_controller\target\classes;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Microtecj NA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Microtecj NA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Microtecj NA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Microtecj NA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Microtecj NA\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Microtecj NA\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Microtecj NA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Microtecj NA\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Microtecj NA\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Microtecj NA\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Microtecj NA\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Microtecj NA\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Microtecj NA\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Microtecj NA\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Microtecj NA\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Microtecj NA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Microtecj NA\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\Microtecj NA\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Microtecj NA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-cucumber5-jvm\2.14.0\allure-cucumber5-jvm-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Microtecj NA\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Microtecj NA\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Microtecj NA\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Microtecj NA\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Microtecj NA\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\Microtecj NA\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\Microtecj NA\.m2\repository\io\qameta\allure\allure-junit4\2.14.0\allure-junit4-2.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Api\workspace\a_product_controller/allure-results"/>
+    <property name="user.home" value="C:\Users\Microtecj NA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Api\workspace\a_product_controller"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Microtecj NA\AppData\Local\Temp\surefire14315236717815861102\surefirebooter5545745720995469387.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="Microtecj NA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Microtecj NA\.m2\repository"/>
+    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MICROT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="C:\Api\workspace\a_product_controller"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.7/bin/server;C:/Program Files/Java/jdk-11.0.7/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.7\bin;C:\Selenium\Software\apache-maven-3.8.7\bin;C:\Selenium\Software\apache-maven-3.8.7\bin;C:\Selenium\Software\allure-2.14.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Microtecj NA\AppData\Local\Microsoft\WindowsApps;;C:\Users\Microtecj NA\eclipse\jee-2021-12\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="6.501">
+    <system-out><![CDATA[before run
+unitPrice :15.0
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:22 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1491,
+    "category": {
+        "id": 1,
+        "categoryName": "MicroTec plant"
+    },
+    "sku": "DF0098",
+    "name": "Beef_Buffolo",
+    "description": null,
+    "unitPrice": 15,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:22.992+00:00",
+    "lastUpdated": "2023-03-23T09:34:22.992+00:00"
+}
+{"id":1,"categoryName":"MicroTec plant"}
+unitPrice: 15.0
+categoryName MicroTec plant
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:22 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1491,
+    "category": {
+        "id": 1,
+        "categoryName": "MicroTec plant"
+    },
+    "sku": "DF0098",
+    "name": "Beef_Buffolo",
+    "description": null,
+    "unitPrice": 15.00,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:22.992+00:00",
+    "lastUpdated": "2023-03-23T09:34:22.992+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:24 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1491,
+    "category": {
+        "id": 1,
+        "categoryName": "MicroTec plant"
+    },
+    "sku": "DF-009",
+    "name": "Purina ONE Beef & Barley",
+    "description": "AB_1092",
+    "unitPrice": 50.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 90,
+    "dateCreated": "2023-03-23T09:34:22.992+00:00",
+    "lastUpdated": "2023-03-23T09:34:24.335+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:25 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:25 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+    <system-err><![CDATA[Mar 23, 2023 4:34:20 AM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+Mar 23, 2023 4:34:20 AM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="3.501">
+    <system-out><![CDATA[before run
+unitPrice :6.99
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1492,
+    "category": {
+        "id": 2,
+        "categoryName": "Rose Flowers"
+    },
+    "sku": "DE1033",
+    "name": "Milk",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-23T09:34:26.867+00:00",
+    "lastUpdated": "2023-03-23T09:34:26.867+00:00"
+}
+{"id":2,"categoryName":"Rose Flowers"}
+unitPrice: 6.99
+categoryName Rose Flowers
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:26 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1492,
+    "category": {
+        "id": 2,
+        "categoryName": "Rose Flowers"
+    },
+    "sku": "DE1033",
+    "name": "Milk",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-23T09:34:26.867+00:00",
+    "lastUpdated": "2023-03-23T09:34:26.867+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:28 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1492,
+    "category": {
+        "id": 2,
+        "categoryName": "Rose Flowers"
+    },
+    "sku": "DF-009",
+    "name": "Fancy Feast Savory",
+    "description": "DC_4887",
+    "unitPrice": 98.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 57,
+    "dateCreated": "2023-03-23T09:34:26.867+00:00",
+    "lastUpdated": "2023-03-23T09:34:28.026+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:29 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="3.504">
+    <system-out><![CDATA[before run
+unitPrice :15.0
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1493,
+    "category": {
+        "id": 3,
+        "categoryName": "Indoor Plants"
+    },
+    "sku": "DF3098",
+    "name": "Dog_Chips",
+    "description": null,
+    "unitPrice": 15,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:30.367+00:00",
+    "lastUpdated": "2023-03-23T09:34:30.367+00:00"
+}
+{"id":3,"categoryName":"Indoor Plants"}
+unitPrice: 15.0
+categoryName Indoor Plants
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:30 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1493,
+    "category": {
+        "id": 3,
+        "categoryName": "Indoor Plants"
+    },
+    "sku": "DF3098",
+    "name": "Dog_Chips",
+    "description": null,
+    "unitPrice": 15.00,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:30.367+00:00",
+    "lastUpdated": "2023-03-23T09:34:30.367+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:31 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1493,
+    "category": {
+        "id": 3,
+        "categoryName": "Indoor Plants"
+    },
+    "sku": "DF-009",
+    "name": "Purina ONE Chicken & Brown",
+    "description": "HD_5679",
+    "unitPrice": 23.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 34,
+    "dateCreated": "2023-03-23T09:34:30.367+00:00",
+    "lastUpdated": "2023-03-23T09:34:31.525+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:32 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:32 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="3.475">
+    <system-out><![CDATA[before run
+unitPrice :6.99
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:33 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1494,
+    "category": {
+        "id": 4,
+        "categoryName": "Garden Plants"
+    },
+    "sku": "DE4033",
+    "name": "Fry_Fish",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-23T09:34:33.866+00:00",
+    "lastUpdated": "2023-03-23T09:34:33.866+00:00"
+}
+{"id":4,"categoryName":"Garden Plants"}
+unitPrice: 6.99
+categoryName Garden Plants
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:33 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1494,
+    "category": {
+        "id": 4,
+        "categoryName": "Garden Plants"
+    },
+    "sku": "DE4033",
+    "name": "Fry_Fish",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-23T09:34:33.866+00:00",
+    "lastUpdated": "2023-03-23T09:34:33.866+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:35 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1494,
+    "category": {
+        "id": 4,
+        "categoryName": "Garden Plants"
+    },
+    "sku": "DF-009",
+    "name": "Beef & Crab Flavor",
+    "description": "HK_8790",
+    "unitPrice": 45.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 98,
+    "dateCreated": "2023-03-23T09:34:33.866+00:00",
+    "lastUpdated": "2023-03-23T09:34:35.018+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="3.465">
+    <system-out><![CDATA[before run
+unitPrice :15.0
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:37 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1495,
+    "category": {
+        "id": 5,
+        "categoryName": "Flowering Plants"
+    },
+    "sku": "DF5098",
+    "name": "Beef_Stick",
+    "description": null,
+    "unitPrice": 15,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:37.335+00:00",
+    "lastUpdated": "2023-03-23T09:34:37.335+00:00"
+}
+{"id":5,"categoryName":"Flowering Plants"}
+unitPrice: 15.0
+categoryName Flowering Plants
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:37 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1495,
+    "category": {
+        "id": 5,
+        "categoryName": "Flowering Plants"
+    },
+    "sku": "DF5098",
+    "name": "Beef_Stick",
+    "description": null,
+    "unitPrice": 15.00,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 80,
+    "dateCreated": "2023-03-23T09:34:37.335+00:00",
+    "lastUpdated": "2023-03-23T09:34:37.335+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:38 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1495,
+    "category": {
+        "id": 5,
+        "categoryName": "Flowering Plants"
+    },
+    "sku": "DF-009",
+    "name": "Turkey & Venison",
+    "description": "HJ_6749",
+    "unitPrice": 45.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 23,
+    "dateCreated": "2023-03-23T09:34:37.335+00:00",
+    "lastUpdated": "2023-03-23T09:34:38.498+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:39 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:39 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Product Controller Functionalities" classname="Product Controller Functionality" time="3.496">
+    <system-out><![CDATA[before run
+unitPrice :6.99
+Status code: 201
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:40 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 938,
+    "category": {
+        "id": 6,
+        "categoryName": "Natural Flowers"
+    },
+    "sku": "DE6033",
+    "name": "Chicken_Bone",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-22T03:22:11.891+00:00",
+    "lastUpdated": "2023-03-23T09:34:40.812+00:00"
+}
+{"id":6,"categoryName":"Natural Flowers"}
+unitPrice: 6.99
+categoryName Natural Flowers
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:40 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 938,
+    "category": {
+        "id": 6,
+        "categoryName": "Natural Flowers"
+    },
+    "sku": "DE6033",
+    "name": "Chicken_Bone",
+    "description": null,
+    "unitPrice": 6.99,
+    "imageUrl": "C:\\Users\\tkhan\\Pictures\\card 2.jpg",
+    "active": true,
+    "unitsInStock": 60,
+    "dateCreated": "2023-03-22T03:22:11.891+00:00",
+    "lastUpdated": "2023-03-23T09:34:40.812+00:00"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 Mar 2023 09:34:41 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 938,
+    "category": {
+        "id": 6,
+        "categoryName": "Natural Flowers"
+    },
+    "sku": "DF-009",
+    "name": "Tuna Flavor Cat",
+    "description": "HD_7894",
+    "unitPrice": 34.00,
+    "imageUrl": "C:\\Users\\Microtecj NA\\Pictures\\istockphoto-1269647099-612x612.jpg",
+    "active": true,
+    "unitsInStock": 34,
+    "dateCreated": "2023-03-22T03:22:11.891+00:00",
+    "lastUpdated": "2023-03-23T09:34:41.977+00:00"
+}
+HTTP/1.1 204 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Date: Thu, 23 Mar 2023 09:34:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Length: 0
+Date: Thu, 23 Mar 2023 09:34:43 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+after run
+]]></system-out>
+  </testcase>
+</testsuite>
